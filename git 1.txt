@@ -1,0 +1,11 @@
+1. git  init
+2. git remote add origin<your url>
+3. git remote -v
+4. git status //to check status//
+5.git add filename
+6. get commit -m "filename"
+7. git push
+
+git hints:
+    u= new files/untracked files;
+    A=added

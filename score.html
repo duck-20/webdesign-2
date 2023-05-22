@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+        /* id>class>element */
+        /* id class element(000) */
+        /* 010 */
+        .wew{
+            border: 1px solid red;
+            width: 200px;
+        }
+        /* 100 */
+        #black-border{
+            border: 2px solid black;
+        }
+        /* 111 */
+        div.wew#black-border{
+            border: 20px solid cyan;
+            font-family: arial;
+        }
+        /* 112 */
+        body div.wew#black-border{
+            border:30px solid orange;
+            font-size: 20x;
+        }
+        /* 113 */
+        html body div.wew#black-border{
+            border: 40px solid green;
+            
+            font-family: 'Franklin Gothic Medium';
+            font-weight: bold;
+            
+
+        }
+        /* 123 */
+        /* html body div.bold#black-border{
+            border: 60px solid black;
+            font-family: 'Franklin Gothic Medium';
+            font-weight: bold;
+        } */
+        div{
+            border: 50px dotted black !important;
+        }
+    </style>
+    </head>
+
+    <body>
+        <header></header>
+        <p> id le class vanda derai priority paudo raixa design ma</p>
+        <br>
+        <p>!important >inline  >id>class>element(000)</p>
+        <div class="wew" class="bold" id="black-border">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum
+            quod id nisi reprehenderit sit sapiente, in ipsam suscipit, amet
+            expedita est, sunt tempora provident consequatur facilis quam
+            incidunt. Aliquam, provident?
+        </div>
+    </body>
+</html>
