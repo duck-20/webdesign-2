@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nav</title>
+  <style>
+    *{
+      font: arial;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body{
+      background-color: gray;
+    }
+    header{
+      background-color: white;  
+    }
+    header nav p{
+      font-weight: bold;
+      font-size: 32px;
+      display: inline;
+      padding: 20px;
+    }
+    header nav ul{
+      display: inline;
+    }
+    header nav ul li{
+      display: inline;
+      list-style-type: none;
+      padding: 5px;
+    }
+    header nav ul li a{
+      text-decoration: none;
+      color: black;
+    }
+    header nav ul li a:hover{
+      cursor: pointer;
+      color: red;
+      text-decoration: underline;
+      text-underline-offset: 4px;
+      transition: all 0.4s;
+    }
+    
+    header nav button{
+      border: 1px solid gray;
+      border-radius: 2px;
+      padding: 5px;
+      font-size: 13px;
+    }
+    nav{
+      display: inline;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0;
+    }
+    .required::after{  
+      content: "*";
+      color: red;
+    }
+    .login{
+      width: 50px;
+
+    }
+  </style>
+</head>
+<body>
+      <header>
+        <nav>
+              <p>Logo</p>
+            </nav>
+                <nav>
+                  <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Courses</a></li>
+                  </ul>
+                </nav>
+                <nav>
+                <button>Logout</button>
+              </nav>
+      </header>
+      <form action="">
+        <div>
+          <label for="" class="required">Username</label>:<input type="text" placeholder="Username"> <br>
+          <label for="" class="required">Password</label>:<input type="password" placeholder="Password"><br>
+          <button class="login">Login</button>
+        </div>
+      </form>
+</body>
+</html>

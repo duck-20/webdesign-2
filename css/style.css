@@ -75,3 +75,17 @@ header nav ul li{
 .child p{
     color: blue;
 }
+header{
+    position: sticky;
+    top: 0;
+    background-color: wheat;
+}
+.up-arrow{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 50px;
+}
+.up-arrow:hover{
+    cursor: pointer;
+}
