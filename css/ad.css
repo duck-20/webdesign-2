@@ -24,12 +24,12 @@ html{
 header div{
   display: inline;
    color: gray;
-   margin-left: 40px;
+   padding: 20px;
    font-size: 22px;
 }
 div h1{
   margin-top: 20px;
-  margin-left: 20px;
+  padding-left: 20px;
 }
 div p{
   color: gray;

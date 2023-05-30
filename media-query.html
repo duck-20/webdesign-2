@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body{
+        background-color: gray;
+      }
+      img {
+        width: 10rem;
+      }
+      .project{
+        width: 25%;
+        margin: 1rem;
+        padding: 2rem;
+        border: 1px solid black;
+        border-radius: 1rem;
+        text-align: center;
+        background-color: white;
+        box-shadow: 1px 1px 10px white;
+      }
+      .project h3{
+        font-size: 2rem;
+      }
+      .project p{
+        text-align: justify;
+      }
+      .projects{
+        padding: 2rem;
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+      }
+      h2.projects{
+        padding: 1rem;
+        text-transform: uppercase;
+        text-align: center;
+      }
+      .project h3{
+        margin: 10px;
+      }
+      @media (max-width:768px)
+        .projects{
+          flex-direction: column;
+        }
+      /* @media(max-width:991px)
+        .projects{
+          width: 35%;
+      } */
+    </style>
+  </head>
+  <body>
+    <h1>Portfolio</h1>
+    <hr />
+    <h2 class="projects">Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <img src="./images/git.png" alt="" />
+        <h3>Git</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio,
+          repellendus veniam? Nihil, esse illo unde, placeat omnis perspiciatis
+          magni, non voluptates magnam porro ut? Sequi voluptatum beatae iure
+          autem quidem.
+        </p>
+      </div>
+      <div class="project">
+        <img src="./images/hmlt.png" alt="" />
+        <h3>HTMLAnd CSS</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, odit
+          nisi. Minima sint perferendis maiores atque praesentium a dolor ullam
+          officiis. Molestiae quia dicta sequi, ratione alias expedita maxime
+          qui?
+        </p>
+      </div>
+      <div class="project">
+        <img src="./images/hmlt.png" alt="" />
+        <h3>HTMLAnd CSS</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, odit
+          nisi. Minima sint perferendis maiores atque praesentium a dolor ullam
+          officiis. Molestiae quia dicta sequi, ratione alias expedita maxime
+          qui?
+        </p>
+      </div>
+      <div class="project">
+        <img src="./images/hmlt.png" alt="" />
+        <h3>HTMLAnd CSS</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, odit
+          nisi. Minima sint perferendis maiores atque praesentium a dolor ullam
+          officiis. Molestiae quia dicta sequi, ratione alias expedita maxime
+          qui?
+        </p>
+      </div>
+      <div class="project">
+        <img src="./images/hmlt.png" alt="" />
+        <h3>HTMLAnd CSS</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, odit
+          nisi. Minima sint perferendis maiores atque praesentium a dolor ullam
+          officiis. Molestiae quia dicta sequi, ratione alias expedita maxime
+          qui?
+        </p>
+      </div>
+      <div class="project">
+        <img src="./images/hmlt.png" alt="" />
+        <h3>HTMLAnd CSS</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, odit
+          nisi. Minima sint perferendis maiores atque praesentium a dolor ullam
+          officiis. Molestiae quia dicta sequi, ratione alias expedita maxime
+          qui?
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -10,20 +10,14 @@
       box-sizing: border-box;
     }
     div{
+      display: inline-block;
       position: relative;
-      margin: 0;
-      padding: 0;
-      width: 200px;
-    }
-    input{
-      width: 100%;
     }
     img{
       position: absolute;
-      bottom: 1px;
-      right: 0.5rem;
-      width: 20px;
-      height: 20px;
+      height: 24px;
+      right: 0;
+
     }
     img:hover{
       cursor: pointer;
@@ -32,13 +26,10 @@
 </head>
 <body>
     <form action="">
-      <div>
-      <input type="text" placeholder="Enter your E-mail"><br>
-    </div>
-      <div>
-        <input type="password" placeholder="Enter your password" class="pass">
-        <img src="./images/paswword.png" alt="">
-      </div>
+        <div>
+          <input type="password" class="password">
+          <img src="./images/paswword.png" alt="">
+        </div>
 
 
     </form>
