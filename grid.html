@@ -16,13 +16,17 @@
       height: 500px;
       width: 500px;
       display: grid;
-      grid-template-columns:20% 20% 20% 20% 20% ;
-      grid-template-rows:20% 20% 20% 20% 20% ;
+      grid-template-columns:repeat(5,1fr) ;
+      grid-template-rows:repeat(5,1fr) ;
       background-color: aqua;
       
     }
     .box{
       border: 1px solid black;
+    }
+    .box:first-child{
+      background-color: wheat;
+      grid-column-start: 3;
     }
   </style>
 </head>
