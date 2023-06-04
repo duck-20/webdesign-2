@@ -15,33 +15,31 @@ varaiables/container/box
       name="ram";
 */
 
-greetings="Namaste";
-name="Ram";
-age=20;
-console.log(greetings,name);
-console.log(name,age);
-brand="apple";
+greetings = "Namaste";
+name = "Ram";
+age = 20;
+console.log(greetings, name);
+console.log(name, age);
+brand = "apple";
 console.log(brand);
-fullName="john mayer";
+fullName = "john mayer";
 console.log(fullName);
-
 
 /* we cant make variable using keywords(reserved keywords).
 for eg:
 for="wwe"
 const="caon" */
 
-courseName="Mern"; //Camel casing
-course_duration=3; //Snake_case
-
+courseName = "Mern"; //Camel casing
+course_duration = 3; //Snake_case
 
 // 1="one"; error we cant use int to define a varible
-number_1="one" //use variable in this way using either camel or snake case;
+number_1 = "one"; //use variable in this way using either camel or snake case;
 
 console.log(number_1);
 
-isPaid=true;
-isMarried=false;
+isPaid = true;
+isMarried = false;
 
 /* 
       Data_types:
@@ -60,29 +58,29 @@ isMarried=false;
       -let(local,changeable and most preferred); 
 */
 
-var laptopBrand='acer';
-console.log('Laptop brand is',laptopBrand);
+var laptopBrand = "acer";
+console.log("Laptop brand is", laptopBrand);
 
-let laptopColor='black';
-console.log('Laptop color is',laptopColor);
+let laptopColor = "black";
+console.log("Laptop color is", laptopColor);
 
-const PI=3.14;
-console.log('The value of PI is',PI);
+const PI = 3.14;
+console.log("The value of PI is", PI);
 
 //Declaration vs initaiization
- let mobileBrand; //declaration
- mobileBrand='Apple'; //initialization
- mobileBrand='Samsung'; //re-initialization(overwrite concept)
- console.log(mobileBrand);
+let mobileBrand; //declaration
+mobileBrand = "Apple"; //initialization
+mobileBrand = "Samsung"; //re-initialization(overwrite concept)
+console.log(mobileBrand);
 
- let watchBrand;//declaration
- watchBrand="Casio"; //initailization
- watchBrand="rado"; //re-initailization
+let watchBrand; //declaration
+watchBrand = "Casio"; //initailization
+watchBrand = "rado"; //re-initailization
 console.log(watchBrand);
 
-let color="black";//declaration and initialization
+let color = "black"; //declaration and initialization
 
-const earthRotation="east to west";//declaration and intialization
+const earthRotation = "east to west"; //declaration and intialization
 // earthRotation="west to east";//cant reinitialize when using cont variable
 console.log(earthRotation);
 
