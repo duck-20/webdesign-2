@@ -125,3 +125,10 @@ let projector={
   brand:"Apple",
 }
 console.log(projector);
+
+let student={
+    studentID:1,
+    studentName:"Ayush Pakhrin",
+    studentClass:10,
+};
+console.log(student);
