@@ -246,3 +246,23 @@ console.log("Room1's length increased by 10="+room1.dimensions.length.value+10);
 //research on template literals
 
 console.log(`The length of room1 is ${room1.dimensions.length.value} ${room1.dimensions.length.unit}.`);
+console.log(`Room1's length increased by 10=${room1.dimensions.length.value+10}`);
+
+let computer={
+  brandComputer:"Gigabyte",
+  dimensionOfComputer:{
+    length:20,
+    height:4,
+    width:10,
+  },
+  price:25000,
+  hertz:144,
+};
+console.log(computer);
+
+let computers=[
+  {id:01,cost:25000,hertz:144},
+  {id:02,cost:35000,hertz:165},
+  {id:21,cost:55000,hertz:240},
+]
+console.log(computers);
