@@ -108,7 +108,7 @@ let projectorDate = "2023/2/22";
 
 //let projectors=[5000,"Black","apple","2023/2/22"]; wrong way to define data as array is the collection of similar data.
 //console.log(projectors);
-
+"re"
 
 /* 
 OBJECT
@@ -125,10 +125,3 @@ let projector={
   brand:"Apple",
 }
 console.log(projector);
-
-let student={
-    studentID:1,
-    studentName:"Ayush Pakhrin",
-    studentClass:10,
-};
-console.log(student);

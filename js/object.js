@@ -7,6 +7,7 @@
         }
 
 
+
 */
 
 /* Task:create ab object of your room */
@@ -190,79 +191,122 @@ let rooms = [
 console.log(rooms);
 
 
+  obj curly {} bracket le represent hunxa
+  array ma big bracket[] le represent hunxa
 */
-let teacher1={
-  tid:9,
-  name:"lataram",
-  subject:"sabai",
-  salary:100000,
-
-}
+let teacher1 = {
+  tid: 9,
+  name: "lataram",
+  subject: "sabai",
+  salary: 100000,
+};
 
 let teachers = [
-  {teacher1},
+  { teacher1 },
   { tid: 1, name: "Ram", subject: "maths", salary: 15000 },
   { tid: 2, name: "Lam", subject: "English", salary: 15000 },
   { tid: 3, name: "Sam", subject: "Nepali", salary: 15000 },
   { tid: 4, name: "Ram", subject: "Science", salary: 15000 },
 ];
 console.log(teachers);
-console.log(teacher1.name+"'s salary is"+" "+teacher1.salary);
+console.log(teacher1.name + "'s salary is" + " " + teacher1.salary);
 
-let firstName="Ram";
-let lastName="Sharma";
+let firstName = "Ram";
+let lastName = "Sharma";
 
 //his name is ram sharma.
-console.log("His Name is "+firstName+" "+lastName)
+console.log("His Name is " + firstName + " " + lastName);
 //also
-let fullName=firstName+" "+lastName;
+let fullName = firstName + " " + lastName;
 console.log(fullName);
-
 
 //task-3
 let room1 = {
   color: "green",
   doorCount: 2,
   dimensions: {
-      length: {
-          value: 10,
-          unit: "meter"
-      },
-      width: {
-          value: 100,
-          unit: "feet"
-      },
-      height: {
-          value: 100,
-          unit: "feet"
-      },
-  }
-}
-console.log("Room1's length is "+room1.dimensions.length.value+" "+room1.dimensions.length.unit);
-console.log("Room1's length increased by 10="+room1.dimensions.length.value+10);
-
-
+    length: {
+      value: 10,
+      unit: "meter",
+    },
+    width: {
+      value: 100,
+      unit: "feet",
+    },
+    height: {
+      value: 100,
+      unit: "feet",
+    },
+  },
+};
+console.log(
+  "Room1's length is " +
+    room1.dimensions.length.value +
+    " " +
+    room1.dimensions.length.unit
+);
+console.log(
+  "Room1's length increased by 10=" + room1.dimensions.length.value + 10
+);
 
 //research on template literals
 
-console.log(`The length of room1 is ${room1.dimensions.length.value} ${room1.dimensions.length.unit}.`);
-console.log(`Room1's length increased by 10=${room1.dimensions.length.value+10}`);
+console.log(
+  `The length of room1 is ${room1.dimensions.length.value} ${room1.dimensions.length.unit}.`
+);
+console.log(
+  `Room1's length increased by 10=${room1.dimensions.length.value + 10}`
+);
 
-let computer={
-  brandComputer:"Gigabyte",
-  dimensionOfComputer:{
-    length:20,
-    height:4,
-    width:10,
+let computer = {
+  brandComputer: "Gigabyte",
+  dimensionOfComputer: {
+    length: 20,
+    height: 4,
+    width: 10,
   },
-  price:25000,
-  hertz:144,
+  cost: 25000,
+  hertz: 144,
 };
 console.log(computer);
+console.log("before", computer.cost);
+computer.cost = 500000;
+console.log("After", computer.cost);
 
-let computers=[
-  {id:01,cost:25000,hertz:144},
-  {id:02,cost:35000,hertz:165},
-  {id:21,cost:55000,hertz:240},
-]
+let computers = [
+  { id: 01, cost: 25000, hertz: 144 },
+  { id: 02, cost: 35000, hertz: 165 },
+  { id: 21, cost: 55000, hertz: 240 },
+];
 console.log(computers);
+console.log("before", computers[2].cost);
+computers[2].cost = 500000;
+console.log("After", computers[2].cost);
+
+let student = {
+  studentID: 1,
+  studentName: "Ayush Pakhrin",
+  studentClass: 10,
+};
+console.log(student);
+
+// let colors=["white","orange","teal"];
+let teal = {
+  color: "teal",
+  hexValue: "#wwwww",
+  hexValue: "#wwwww",
+  hexValue: "#wwwww23",
+};
+let colors = [
+  {
+    color: "white",
+    hexValue: "#ffff",
+  },
+  {
+    color: "red",
+    hexValue: "#fasfas",
+  },
+  teal,
+];
+console.log(colors);
+console.log(teal.hexValue);
