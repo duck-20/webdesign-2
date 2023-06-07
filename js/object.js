@@ -282,6 +282,10 @@ console.log(computers);
 console.log("before", computers[2].cost);
 computers[2].cost = 500000;
 console.log("After", computers[2].cost);
+console.log(computers[1].id,computers[1].cost,computers[1].hertz);
+for(i=0;i<=2;i++){
+  console.log(computers[i].id,computers[i].cost);
+}
 
 let student = {
   studentID: 1,
