@@ -32,7 +32,23 @@ console.log(students);
 for (i = 0; i <= 3; i++) {
   console.log(`${students[i].name}'s phone number is ${students[i].phone}.`);
 };
+let students = [
+  {
+      roll: 1,
+      courses: ["Web", "Mobile"]
+  },
+  {
+      roll: 2,
+      courses: ["Web", "Graphic"]
+  }
+];
+students[1].courses[1]="mobile";
+console.log(students[1]);
+
+
 //Donot repeat youself
 
 /* Function */
+
+
 /* Arrow Function */
