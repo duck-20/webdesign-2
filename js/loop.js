@@ -102,3 +102,5 @@ function even(num1, num2) {
   }
 }
 even(1,9);
+console.log("____________________________________");
+even(50,70);
