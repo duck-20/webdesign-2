@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>a
+</head>
+
+<body>
+    <pre>
+        hint:
+            innerHTML
+
+
+            createElement()
+            appendChild()
+    </pre>
+
+    <h1>todo lsit</h1>
+    <hr>
+    <form onsubmit="addTodo(event)">
+        <input type="text" old-id="title" name="title" required>
+        <button>add</button>
+    </form>
+    <hr>
+    <ul id="todo-list">
+        <li>css</li>
+        <li>html</li>
+    </ul>
+
+    <script>
+
+        let todos = [];
+
+
+        const addTodo = (event) => {
+                event.preventDefault(); //to prevent page to refresh
+                // let value=document.getElementByName("title").value;
+                let value=event.target.title.value;
+                value=value.trim();
+                if(value){
+                console.log(`add ${value}`);
+                todos.push(value);
+                console.log(todos);
+
+                convertTodosArrToList();
+                event.target.title.value="";
+                }
+                else{
+                    console.log("Required")
+                }
+               
+        }
+        let convertTodosArrToList=()=>{
+            let str="";
+            todos.forEach(title=>{
+                str+=`<li>${title}</li>`
+                
+            })
+            
+            console.log(str);
+            document.getElementById("todo-list").innerHTML=str;
+        }
+        convertTodosArrToList();
+
+        /* todo fro each elemnt of todos .. create <li> */
+            /* document.getElementById("todo-list").innerHTML= `<li>${"react"}</li> <li>${"node"}</li>`;*/
+
+    </script>
+
+</body>
+
+</html>
